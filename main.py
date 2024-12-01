@@ -14,9 +14,9 @@ import datetime
 app = FastAPI()
 
 # MongoDB connection information
-MONGO_URI = "mongodb://dbadmin:dbImp!14%402@78.38.35.219:27017/?authMechanism=DEFAULT"
+MONGO_URI = ""
 client = MongoClient(MONGO_URI)
-db = client['400463118']
+db = client['']
 
 # --- Templates ---
 templates = Jinja2Templates(directory="templates")
